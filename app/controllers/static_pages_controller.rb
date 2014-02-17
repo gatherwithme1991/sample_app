@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
+  	puts "Home called!"
   end
 
   def help
